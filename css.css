@@ -1,0 +1,56 @@
+body{
+    font-family: 'Knewave', cursive;
+    background: rgb(222,221,247);
+background: radial-gradient(circle, rgba(222,221,247,0.7067869384081757) 11%, rgba(26,26,26,0.9448821765034139) 50%);
+    }
+.h{
+    margin:auto;
+    width:600px;
+    text-align:center;
+
+}
+h2{
+   display:inline-block;
+   font-size:40px;
+   width:100%;
+}
+.container{
+    margin:auto;
+    width:360px;
+    height:360px;
+}
+.gameboard{
+    height:inherit;
+    width:inherit;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+
+}
+    
+.block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:31px;
+    
+}
+#d,#e,#f{
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+#a,#d,#g{
+    border-right:2px solid black;
+}
+#c,#f,#i{
+    border-left:2px solid black;
+}
+.wins{
+    color:green;
+    transition:2s;
+    
+}
+.yellow{
+    color:yellow;
+    transition:2s;
+}
